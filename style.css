@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+/***************************************************HEADER****************************************************************************/
+.navigation{
+    height: 60px;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+}
+
+.element-navigation{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+/*****************************************************MAIN*****************************************************************************/
+
+/*****************************************************HEADER***************************************************************************/
+.accueil{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.image-accueil{
+    height: 880px;
+    width: 80%;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+.titre-accueil{
+    color: white;
+    font-size: 85px;
+}
+
+.bouton-accueil{
+    height: 110px;
+    width: 750px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    background: rgb(255,0,0);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0
+}
+
+/****************************************************A-PROPOS**************************************************************************/
+.a-propos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 200px;
+}
+
+.photo-a-propos {
+    height: 950px;
+    width: 600px;
+    border-radius: 1500px;
+    overflow: hidden;
+}
+
+.photo-profil {
+    height: 100%;
+    width: 100%;
+}
+
+.texte-a-propos {
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sous-titre-texte-a-propos {
+    color: white;
+    font-size: 80px;
+    color: #ff0000;
+    margin-bottom: 30px;
+}
+
+.texte {
+    color: white;
+    font-size: 26px;
+    line-height: 35px;
+}
+
+/***********************************************MES TECHNOS****************************************************************************/
+.mes-technos{
+    background-color: black;
+    background-image: url("/images/background-mes-techno.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+.titre-mes-technos{
+    font-size: 80px;
+    color: #31bc92;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.texte-mes-technos{
+    height: 800px;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.titre-liste-mes-technos {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.ul-mes-technos{
+    margin-left: 50px;
+    text-decoration: white;
+}
+
+.li-mes-technos {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.bouton-mes-technos {
+    height: 100px;
+    width: 570px;
+    border-radius: 20px;
+    background-color: #31bc92;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+/************************************************PORTFOLIO*****************************************************************************/
+.portfolio {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.titre-portfolio {
+   font-size: 80px;
+   color: #ffe453;
+   margin-top: 100px;
+}
+
+.gallerie-carte-portfolio {
+    height: max-content;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carte-portfolio {
+    display: block;
+    height: auto;
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow: hidden;
+    box-shadow: 1px 2px 40px rgb(71, 70, 70);
+    text-decoration: none;
+}
+
+.carte-portfolio:hover {
+    box-shadow: 1px 2px 40px #ffe453;
+}
+    
+
+.img-carte-portfolio{
+    height: 526px;
+    width: 700px;
+}
+
+.info-carte-portfolio {
+    margin-left: 10px;
+}
+
+.titre-carte-portfolio {
+    color: #ffe453;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.texte-info-carte-portfolio {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+/*************************************************************FOOTER*******************************************************************/
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    background-image: url("/images/stephDev.tech.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 200px;
+}
+
+.div-contact-info {
+    height: 800px;
+    width: 800px;
+    padding: 10px;
+    border: 15px double white;
+    border-radius: 5px;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titre-contact{
+    font-size: 60px;
+}
+
+.titre-infos-contact {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.li-infos-contact {
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.tel-infos-contact {
+    font-size: 25px;
+}
+/**************************************************RESPONSIVE*************************************************************************/
+
+@media (max-width: 1025px) {
+    .element-navigation{
+        font-size: 19px;
+    }
+
+/***************************************************ACCUEIL***************************************************************************/
+    
+    .accueil{
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .image-accueil{
+        height: 500px;
+        width: 80%;
+    }
+    
+    .image{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .titre-accueil{
+        color: white;
+        font-size: 85px;
+    }
+    
+    .bouton-accueil{
+        height: 80px;
+        width: 330px;
+        font-size: 25px;
+    }
+
+/********************************************************A PROPOS*********************************************************************/
+    
+    .a-propos {
+        height: auto; 
+        flex-direction: column; 
+        margin-bottom: 150px;      
+    }
+    
+    .photo-a-propos {
+        height: 400px;
+        width: 300px;
+        margin-bottom: 90px;
+    }
+    
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .texte-a-propos {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    
+    .sous-titre-texte-a-propos {
+        color: white;
+        font-size: 80px;
+        color: #ff0000;
+        margin-bottom: 30px;
+    }
+    
+    .texte {
+        color: white;
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+/**********************************************************MES TECHNOS****************************************************************/
+
+.mes-technos{
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.titre-mes-technos{
+    font-size: 60px;
+}
+
+.texte-mes-technos{
+    height: auto;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titre-liste-mes-technos {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.ul-mes-technos{
+    margin-left: 50px;
+    text-decoration: white;
+}
+
+.li-mes-technos {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bouton-mes-technos {
+    height: 100px;
+    width: 570px;
+    border-radius: 20px;
+    background-color: #31bc92;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+}
+
+@media (max-width: 769px) {
+    .navigation{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        justify-content: space-around;
+        background-color: white;
+    }
+
+    .element-navigation {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
