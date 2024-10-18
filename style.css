@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: black
 }
 /***************************************************HEADER****************************************************************************/
 .navigation{
@@ -43,18 +43,12 @@ body {
 }
 
 .image-accueil{
-    height: 880px;
     width: 80%;
 }
 
 .image{
     height: 100%;
     width: 100%;
-}
-
-.titre-accueil{
-    color: white;
-    font-size: 85px;
 }
 
 .bouton-accueil{
@@ -82,7 +76,7 @@ body {
 }
 
 .photo-a-propos {
-    height: 950px;
+    height: 900px;
     width: 600px;
     border-radius: 1500px;
     overflow: hidden;
@@ -95,14 +89,13 @@ body {
 
 .texte-a-propos {
     height: 900px;
-    width: 900px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .sous-titre-texte-a-propos {
-    color: white;
     font-size: 80px;
     color: #ff0000;
     margin-bottom: 30px;
@@ -125,6 +118,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 200px;
+    padding: 60px;
+    box-sizing: border-box;
 }
 
 .titre-mes-technos{
@@ -136,12 +131,10 @@ body {
 }
 
 .texte-mes-technos{
-    height: 800px;
     display: flex;
-    margin-left: 100px;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 .titre-liste-mes-technos {
@@ -192,15 +185,15 @@ body {
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
 .carte-portfolio {
     display: block;
-    height: auto;
-    width: 700px;
+    height: 750px;
+    width: 50%;
     border-radius: 10px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -216,11 +209,13 @@ body {
 
 .img-carte-portfolio{
     height: 526px;
-    width: 700px;
+    width: 100%;
 }
 
 .info-carte-portfolio {
-    margin-left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .titre-carte-portfolio {
@@ -248,64 +243,57 @@ body {
 }
 
 .div-contact-info {
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
     padding: 10px;
     border: 15px double white;
     border-radius: 5px;
-    margin-right: 90px;
+    margin-right: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .titre-contact{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .titre-infos-contact {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .li-infos-contact {
     margin-left: 50px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .tel-infos-contact {
-    font-size: 25px;
+    font-size: 20px;
 }
+
 /**************************************************RESPONSIVE*************************************************************************/
 
 @media (max-width: 1025px) {
+
     .element-navigation{
         font-size: 19px;
     }
 
 /***************************************************ACCUEIL***************************************************************************/
     
-    .accueil{
+    .accueil {
         height: auto;
-        margin-bottom: 100px;
+        align-items: center;
+        justify-content: center;
     }
 
-    .image-accueil{
+    .image-accueil {
         height: 500px;
         width: 80%;
     }
-    
-    .image{
-        height: 100%;
-        width: 100%;
-    }
-    
-    .titre-accueil{
-        color: white;
-        font-size: 85px;
-    }
-    
+
     .bouton-accueil{
         height: 80px;
         width: 330px;
@@ -315,90 +303,139 @@ body {
 /********************************************************A PROPOS*********************************************************************/
     
     .a-propos {
-        height: auto; 
         flex-direction: column; 
-        margin-bottom: 150px;      
+        justify-content: center;
+        margin-bottom: 0;
     }
     
     .photo-a-propos {
+        margin: 0;
         height: 400px;
         width: 300px;
-        margin-bottom: 90px;
     }
     
     .photo-profil {
         height: 100%;
         width: 100%;
     }
+
+    .sous-titre-texte-a-propos {
+        font-size: 80px;
+        margin-bottom: 70px;
+    }
     
     .texte-a-propos {
-        height: 300px;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
+        box-sizing: border-box;
+        padding: 90px;
+        text-align: center;
+        align-items: center;
     }
-    
-    .sous-titre-texte-a-propos {
-        color: white;
-        font-size: 80px;
-        color: #ff0000;
-        margin-bottom: 30px;
-    }
-    
+   
     .texte {
-        color: white;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 35px;
     }
 
 /**********************************************************MES TECHNOS****************************************************************/
 
-.mes-technos{
-    margin-top: 150px;
-    margin-bottom: 0;
-}
+    .mes-technos{
+        height: auto;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
 
-.titre-mes-technos{
-    font-size: 60px;
-}
+    .titre-mes-technos{
+        font-size: 55px;
+    }
 
-.texte-mes-technos{
-    height: auto;
-    display: flex;
-    margin-left: 30px;
-    flex-direction: column;
-    justify-content: space-around;
-}
+    .liste-mes-technos {
+        margin-bottom: 30px;
+    }
 
-.titre-liste-mes-technos {
-    font-size: 35px;
-    margin-bottom: 15px;
-}
 
-.ul-mes-technos{
-    margin-left: 50px;
-    text-decoration: white;
-}
+    .titre-liste-mes-technos {
+        font-size: 35px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 
-.li-mes-technos {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
+    .li-mes-technos {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
 
-.bouton-mes-technos {
-    height: 100px;
-    width: 570px;
-    border-radius: 20px;
-    background-color: #31bc92;
-    font-size: 25px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-}
+    .bouton-mes-technos {
+        height: 100px;
+        width: 420px;
+    }
+
+/*****************************************************PORTFOLIO**********************************************************************/
+    
+    .portfolio {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .titre-portfolio {
+        font-size: 80px;
+        color: #ffe453;
+        margin-top: 100px;
+    }
+
+    .gallerie-carte-portfolio {
+        margin-top: 90px; 
+    }
+
+    .carte-portfolio {
+        height: 680px;
+        width: 60%;
+    }
+    
+    .img-carte-portfolio{
+        height: 526px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-carte-portfolio {
+        margin-left: 10px;
+    }
+
+    .titre-carte-portfolio {
+        color: #ffe453;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .texte-info-carte-portfolio {
+        font-size: 13px;
+    }
+/*******************************************************CONTACT**********************************************************************/
+    .contact {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-image: none;
+        margin-bottom: 200px;
+    }
+
+    .div-contact-info {
+        height: 700px;
+        width: 700px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 15px double white;
+        border-radius: 5px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 769px) {
@@ -411,7 +448,171 @@ body {
     }
 
     .element-navigation {
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+/***************************************************ACCUEIL***************************************************************************/
+    
+    .accueil {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 90px;
+    }
+
+    .image-accueil {
+        width: 100%;
+    }
+
+    .bouton-accueil{
+        height: 80px;
+        width: 330px;
+        font-size: 20px;
+    }
+
+/********************************************************A PROPOS*********************************************************************/
+    
+    .a-propos {
+        margin-bottom: 0;
+    }
+    
+    .photo-a-propos {
+        margin: 0;
+        height: 300px;
+        width: 150px;
+    }
+    
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sous-titre-texte-a-propos {
+        font-size: 50px;
+        margin-bottom: 1px;
+    }
+    
+    .texte-a-propos {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+    }
+   
+    .texte {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+/**********************************************************MES TECHNOS****************************************************************/
+
+    .mes-technos{
+        height: auto;
+        padding: 0;
+        margin-bottom: 0;
+        justify-content: center;
+    }
+
+    .titre-mes-technos{
+        font-size: 45px;
+    }
+
+    .liste-mes-technos {
+        margin-bottom: 30px;
+    }
+
+    .titre-liste-mes-technos {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .li-mes-technos {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .bouton-mes-technos {
+        height: 100px;
+        width: 310px;
+        font-size: 18px;
+    }
+
+/*****************************************************PORTFOLIO**********************************************************************/
+    
+    .portfolio {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .titre-portfolio {
+        font-size: 45px;
+        color: #ffe453;
+        margin-top: 100px;
+    }
+
+    .gallerie-carte-portfolio {
+        margin-top: 90px; 
+    }
+
+    .carte-portfolio {
+        height: auto;
+        width: 80%;
+    }
+    
+    .img-carte-portfolio{
+        height: 526px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info-carte-portfolio {
+        margin-left: 10px;
+    }
+
+    .titre-carte-portfolio {
+        color: #ffe453;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .texte-info-carte-portfolio {
+        font-size: 13px;
+    }
+
+/*******************************************************CONTACT**********************************************************************/
+    
+    .contact {
+        align-items: center;
+        justify-content: center;
+        background-image: none;
+        margin-bottom: 200px;
+    }
+
+    .div-contact-info {
+        height: 600px;
+        width: 90%;
+    }
+
+    .titre-contact{
+        font-size: 40px;
+    }
+    
+    .titre-infos-contact {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .li-infos-contact {
+        font-size: 20px;
+    }
+    
+    .tel-infos-contact {
+        font-size: 20px;
     }
 }
 
