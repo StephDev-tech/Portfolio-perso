@@ -26,7 +26,7 @@ body {
     color: black;
     background-color: white;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 5px;
 }
 
@@ -83,7 +83,6 @@ body {
 }
 
 .photo-profil {
-    height: 100%;
     width: 100%;
 }
 
@@ -103,7 +102,7 @@ body {
 
 .texte {
     color: white;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 35px;
 }
 
@@ -117,8 +116,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-bottom: 200px;
-    padding: 60px;
     box-sizing: border-box;
 }
 
@@ -135,10 +132,11 @@ body {
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 90px;
+    margin-left: 30px;
 }
 
 .titre-liste-mes-technos {
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 15px;
 }
 
@@ -148,7 +146,7 @@ body {
 }
 
 .li-mes-technos {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
@@ -162,7 +160,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 /************************************************PORTFOLIO*****************************************************************************/
 .portfolio {
@@ -192,7 +190,7 @@ body {
 
 .carte-portfolio {
     display: block;
-    height: 750px;
+    height: auto;
     width: 50%;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -208,7 +206,6 @@ body {
     
 
 .img-carte-portfolio{
-    height: 526px;
     width: 100%;
 }
 
@@ -290,7 +287,6 @@ body {
     }
 
     .image-accueil {
-        height: 500px;
         width: 80%;
     }
 
@@ -315,7 +311,6 @@ body {
     }
     
     .photo-profil {
-        height: 100%;
         width: 100%;
     }
 
@@ -369,6 +364,7 @@ body {
     .bouton-mes-technos {
         height: 100px;
         width: 420px;
+        margin-left: 0;
     }
 
 /*****************************************************PORTFOLIO**********************************************************************/
@@ -397,7 +393,6 @@ body {
     }
     
     .img-carte-portfolio{
-        height: 526px;
         display: flex;
         justify-content: center;
     }
@@ -483,7 +478,6 @@ body {
     }
     
     .photo-profil {
-        height: 100%;
         width: 100%;
     }
 
@@ -513,10 +507,16 @@ body {
         padding: 0;
         margin-bottom: 0;
         justify-content: center;
+        align-items: center;
+    }
+
+    .texte-mes-technos {
+        margin-left: 0;
+        margin-right: 5px;
     }
 
     .titre-mes-technos{
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .liste-mes-technos {
@@ -524,12 +524,12 @@ body {
     }
 
     .titre-liste-mes-technos {
-        font-size: 35px;
+        font-size: 20px;
         text-align: center;
     }
 
     .li-mes-technos {
-        font-size: 19px;
+        font-size: 15px;
         margin-bottom: 10px;
     }
 
@@ -537,6 +537,7 @@ body {
         height: 100px;
         width: 310px;
         font-size: 18px;
+        margin-left: 0;
     }
 
 /*****************************************************PORTFOLIO**********************************************************************/
@@ -546,11 +547,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin-bottom: 200px;
     }
 
     .titre-portfolio {
-        font-size: 45px;
+        font-size: 35px;
         color: #ffe453;
         margin-top: 100px;
     }
@@ -565,7 +567,6 @@ body {
     }
     
     .img-carte-portfolio{
-        height: 526px;
         display: flex;
         justify-content: center;
     }
@@ -576,12 +577,12 @@ body {
 
     .titre-carte-portfolio {
         color: #ffe453;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 600;
     }
 
     .texte-info-carte-portfolio {
-        font-size: 13px;
+        font-size: 12px;
     }
 
 /*******************************************************CONTACT**********************************************************************/
