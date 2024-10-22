@@ -181,7 +181,7 @@ body {
 .mes-technos{
     height: 100vh;
     background-color: black;
-    background-image: url("/images/background-mes-techno.jpg");
+    background-image: url("./images/background-mes-techno.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -307,7 +307,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     background-color: black;
-    background-image: url("/images/stephDev.tech.png");
+    background-image: url("./images/stephDev.tech.png");
     background-size: cover;
     background-position: center;
     margin-bottom: 200px;
