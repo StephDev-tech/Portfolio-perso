@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<!--META SEO-->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
+		<meta
+			name="description"
+			content="Développeur web fullstack, je conçois des sites performants et sur-mesure en front-end et back-end, avec React, Node.js, et MongoDb."
+		/>
+		<title>StephDev-tech Developpeur web fullstack en Martinique</title>
+		<meta name="robots" content="index,follow" />
+		<!-- META TWITTER CARD -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="StephDev-tech Developpeur web fullstack en Martinique"
+		/>
+		<meta
+			name="twitter:description"
+			content="Développeur web fullstack, je conçois des sites performants et sur-mesure en front-end et back-end, avec React, Node.js, et MongoDb."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://github.com/StephDev-tech/Portfolio-perso/blob/main/images/sdt%20(1).png?raw=true"
+		/>
+		<!-- META Facebook CARD -->
+		<meta
+			property="og:title"
+			content="StephDev-tech Developpeur web fullstack en Martinique"
+		/>
+		<meta
+			property="og:description"
+			content="Développeur web fullstack, je conçois des sites performants et sur-mesure en front-end et back-end, avec React, Node.js, et MongoDb."
+		/>
+		<meta
+			property="og:url"
+			content="https://stephdev-tech.github.io/Portfolio-perso/"
+		/>
+		<meta
+			property="og:image"
+			content="https://github.com/StephDev-tech/Portfolio-perso/blob/main/images/sdt%20(1).png?raw=true"
+		/>
+		<link rel="stylesheet" href="./style.css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
-		<title>Portfolio</title>
+		<script src="script.js" defer></script>
+		<script src="https://kit.fontawesome.com/634baaa39d.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header>
@@ -25,7 +64,7 @@
 		<main>
 			<header id="accueil" class="accueil">
 				<div class="image-accueil">
-					<img src="/images/backgroundAccueil.png" alt="logo" class="image" />
+					<img src="./images/backgroundAccueil.png" alt="logo" class="image" />
 				</div>
 				<div class="accueil-conteneur">
 					<a href="#profil" class="bouton-accueil">En savoir plus</a>
@@ -34,7 +73,7 @@
 			<section class="a-propos" id="profil">
 				<div class="photo-a-propos">
 					<img
-						src="/images/photo-profil.jpg"
+						src="./images/photo-profil.jpg"
 						alt="photo de profil"
 						class="photo-profil"
 					/>
@@ -126,9 +165,12 @@
 			<section class="portfolio" id="portfolio">
 				<h2 class="titre-portfolio">MON PORTFOLIO</h2>
 				<div class="gallerie-carte-portfolio">
-					<a href="https://stephdev-tech.github.io/booki-starter-code-master/" class="carte-portfolio">
+					<a
+						href="https://stephdev-tech.github.io/booki-starter-code-master/"
+						class="carte-portfolio"
+					>
 						<img
-							src="/images/booki.png"
+							src="./images/booki.png"
 							alt="capture d'écran du site booki"
 							class="img-carte-portfolio"
 						/>
@@ -141,33 +183,51 @@
 							</p>
 						</div>
 					</a>
-					<a href="https://stephdev-tech.github.io/kasa/" class="carte-portfolio">
+					<a
+						href="https://stephdev-tech.github.io/kasa/"
+						class="carte-portfolio"
+					>
 						<img
-							src="/images/kasa.png"
+							src="./images/kasa.png"
 							alt="capture d'écran du site booki"
 							class="img-carte-portfolio"
 						/>
 						<div class="info-carte-portfolio">
 							<h3 class="titre-carte-portfolio">Kasa</h3>
 							<p class="texte-info-carte-portfolio">
-								Développement avec React d’un site de réservation en ligne. Avec
-								ce projet j’ai pu mettre à exécution mes connaissance en HTML &
-								CSS et développer mon expérience en intégration et responsive.
+								Développement d'une application web de location immobilière avec
+								React. Avec ce projet, j'ai pu apprendre à utiliser un framework
+								moderne et performant pour la création d'interfaces utilisateur
+								dynamiques.J'ai découvert les concepts clés de React, tels que
+								les composants, les hooks, ainsi que l'optimisation des
+								performances via le rendu conditionnel et l'utilisation efficace
+								des composants fonctionnels.
 							</p>
 						</div>
 					</a>
-					<a href="https://stephdev-tech.github.io/Nina-Carducci-Dev-master/" class="carte-portfolio">
+					<a
+						href="https://stephdev-tech.github.io/Nina-Carducci-Dev-master/"
+						class="carte-portfolio"
+					>
 						<img
-							src="/images/Nina.png"
+							src="./images/Nina.png"
 							alt="capture d'écran du site booki"
 							class="img-carte-portfolio"
 						/>
 						<div class="info-carte-portfolio">
 							<h3 class="titre-carte-portfolio">Portfolio photographe</h3>
 							<p class="texte-info-carte-portfolio">
-								Développement Front end d’un site de réservation en ligne. Avec
-								ce projet j’ai pu mettre à exécution mes connaissance en HTML &
-								CSS et développer mon expérience en intégration et responsive.
+								Optimisation et débuggage d'un site de photographe. Au cours de
+								ce projet, j'ai eu l'occasion de me concentrer sur
+								l'amélioration des performances du site en optimisant le temps
+								de chargement des images, en minifiant les fichiers HTML,
+								JavaScript et CSS. J'ai également amélioré le SEO en mettant en
+								place les méta-données nécessaires et en renforçant
+								l'accessibilité du site, notamment en respectant les standards
+								ARIA et en optimisant la navigation pour les utilisateurs de
+								lecteurs d'écran. En parallèle, j'ai résolu divers bugs liés à
+								des erreurs de développement, garantissant ainsi un site plus
+								robuste et performant.
 							</p>
 						</div>
 					</a>
@@ -193,9 +253,10 @@
 						<li class="li-infos-contact">Vendredi: 8h à 15h30</li>
 					</ul>
 				</div>
-				<p class="tel-infos-contact">TÉL : 0696.37.78.43</p>
-				<p class="tel-infos-contact">Mail : sstephane16@gmail.com</p>
+				<a href="https://api.whatsapp.com/send/?phone=596696377843&text&type=phone_number&app_absent=0" class="tel-infos-contact" target="_blank"><i class="fa-solid fa-phone"></i> : 0696 37 78 43</a>
+				<a href="mailto:sstephane16@gmail.com" class="tel-infos-contact" target="_blank"><i class="fa-solid fa-envelope"></i> : sstephane16@gmail.com</a>
 			</div>
 		</footer>
+		<button id="premierePage" class="premiere-page"><i class="fa-solid fa-arrow-up"></i></button>
 	</body>
 </html>
