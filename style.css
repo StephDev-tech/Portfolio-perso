@@ -13,9 +13,8 @@ body {
     background-color: black;
 }
 
-/* Bouton Scroll to Top */
-.premiere-page {
 
+.premiere-page {
     position: fixed;
     bottom: 100px;
     right: 20px;
@@ -26,7 +25,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: none; /* Caché par défaut */
+    display: none; 
     z-index: 1000;
     opacity: 0.5;
 }
@@ -400,13 +399,13 @@ body {
         width: 100%;
         box-sizing: border-box;
         padding: 90px;
-        text-align: center;
         align-items: center;
     }
    
     .texte {
         font-size: 15px;
         line-height: 35px;
+        text-align: justify;
     }
 
 /**********************************************************MES TECHNOS****************************************************************/
@@ -660,7 +659,7 @@ body {
     }
 
     .info-carte-portfolio {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     .titre-carte-portfolio {

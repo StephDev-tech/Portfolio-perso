@@ -15,7 +15,7 @@ lienNavigation.forEach(lien => {
 // Sélectionner le bouton
 const boutonPremierePage = document.getElementById('premierePage');
 
-// Afficher le bouton après avoir défilé 300px vers le bas
+// Afficher le bouton après avoir défilé 100px vers le bas
 window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
         boutonPremierePage.style.display = 'block';
