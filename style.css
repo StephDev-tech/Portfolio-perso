@@ -228,6 +228,7 @@ body {
     background-color: #31bc92;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -551,7 +552,8 @@ body {
 
     }
     .element-navigation {
-        font-size: 0.59em;
+        font-size: 15px;
+        width: 50%;
         gap: 0px;
     }
 
