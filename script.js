@@ -39,16 +39,16 @@ const navigation = document.getElementById('navigation');
 // Ajoute un gestionnaire d'événements au bouton pour chaque clic
 boutonNavigation.addEventListener('click', () => {
     // Si la div a la classe 'navigation-close', on la retire pour ouvrir menu de navigation
-    if (navigation.classList.contains('navigation-close')) {
-        navigation.classList.remove('navigation-close');
+    if (navigation.classList.contains('navigation-fermer')) {
+        navigation.classList.remove('navigation-fermer');
     } 
 
   });
 
 // Ajoute un gestionnaire d'événements à la balise nav pour chaque clic
   navigation.addEventListener('click', () => {
-    // ajoute  la class 'navigation-close' pour fermer le menu de navigation
-        navigation.classList.add('navigation-close');
+    // ajoute  la class 'navigation-fermer' pour fermer le menu de navigation
+        navigation.classList.add('navigation-fermer');
   });
 
 
