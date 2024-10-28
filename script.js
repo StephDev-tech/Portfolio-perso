@@ -12,16 +12,16 @@ const setUrlHashActive = () => {
   return false
 }
 setUrlHashActive()
-// Ajouter un écouteur d'événement à chaque lien
-lienNavigation.forEach(lien => {
-  lien.addEventListener('click', function () {
-    // Supprimer la classe 'active' de tous les liens
-    lienNavigation.forEach(nav => nav.classList.remove('active'))
+// // Ajouter un écouteur d'événement à chaque lien
+// lienNavigation.forEach(lien => {
+//   lien.addEventListener('click', function () {
+//     // Supprimer la classe 'active' de tous les liens
+//     lienNavigation.forEach(nav => nav.classList.remove('active'))
 
-    // Ajouter la classe 'active' au lien cliqué
-    this.classList.add('active')
-  })
-})
+//     // Ajouter la classe 'active' au lien cliqué
+//     this.classList.add('active')
+//   })
+// })
 
 const setActiveMenu = el => {
   lienNavigation.forEach(nav => nav.classList.remove('active'))

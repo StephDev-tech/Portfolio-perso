@@ -209,12 +209,12 @@ body {
     margin-bottom: 15px;
 }
 
-.ul-mes-technos{
+.element-mes-technos {
     margin-left: 50px;
     text-decoration: white;
 }
 
-.li-mes-technos {
+.element-liste-mes-technos {
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -334,7 +334,7 @@ body {
     margin-bottom: 20px;
 }
 
-.li-infos-contact {
+.element-liste-infos-contact {
     margin-left: 50px;
     text-decoration: none;
     font-size: 20px;
@@ -438,7 +438,7 @@ body {
         text-align: center;
     }
 
-    .li-mes-technos {
+    .element-liste-mes-technos {
         font-size: 19px;
         margin-bottom: 8px;
     }
@@ -644,7 +644,7 @@ body {
         text-align: center;
     }
 
-    .li-mes-technos {
+    .element-liste-mes-technos {
         font-size: 15px;
         margin-bottom: 10px;
     }
@@ -719,7 +719,7 @@ body {
         margin-bottom: 20px;
     }
     
-    .li-infos-contact {
+    .element-liste-infos-contact {
         font-size: 16px;
     }
     
