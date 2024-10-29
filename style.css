@@ -42,7 +42,6 @@ body {
     display: block; 
     z-index: 2;
     opacity: 0.5;
-    transform: a;
     transition: all .3s;
 }
 
